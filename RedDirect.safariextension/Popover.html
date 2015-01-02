@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <input id="subreddit" type="text" />
+    <div id="buttons">
+      Go to subreddit in:
+      <input id="submit_button_window" type="button" value="Current Window" onclick="goToSubreddit(false)" />
+      <input id="submit_button_tab" type="button" value="New Tab" onclick="goToSubreddit(true)" />
+    </div>
+
+  </body>
+  <script>
+    function goToSubreddit(newTab) {
+      var sub = document.getElementById("subreddit").value;
+      const subredditStem = "http://reddit.com/r/";
+      if (!newTab) {
+        safari.application.activeBrowserWindow.activeTab.url = subredditStem + sub;
+      }
+      else {
+        var newTab = safari.application.activeBrowserWindow.openTab();
+        newTab.url = subredditStem + sub;
+      }
+    }
+  </script>
+</html>
