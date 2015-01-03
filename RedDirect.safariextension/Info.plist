@@ -18,19 +18,17 @@
 	<string>1</string>
 	<key>Chrome</key>
 	<dict>
-		<key>Global Page</key>
-		<string>global.html</string>
 		<key>Popovers</key>
 		<array>
 			<dict>
 				<key>Filename</key>
 				<string>Popover.html</string>
 				<key>Height</key>
-				<real>100</real>
+				<real>70</real>
 				<key>Identifier</key>
 				<string>RedDirectWindow</string>
 				<key>Width</key>
-				<real>300</real>
+				<real>280</real>
 			</dict>
 		</array>
 		<key>Toolbar Items</key>
