@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>10600.2.5</string>
 	<key>CFBundleDisplayName</key>
-	<string>RedDirect</string>
+	<string>SubCut</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.c1phr.reddirect</string>
+	<string>com.c1phr.subcut</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -69,6 +69,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>https://github.com/c1phr/RedDirect</string>
+	<string>https://github.com/c1phr/SubCut</string>
 </dict>
 </plist>
