@@ -24,7 +24,7 @@
 				<key>Filename</key>
 				<string>popover.html</string>
 				<key>Height</key>
-				<real>70</real>
+				<real>100</real>
 				<key>Identifier</key>
 				<string>RedDirectWindow</string>
 				<key>Width</key>
@@ -68,5 +68,7 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>https://github.com/c1phr/RedDirect</string>
 </dict>
 </plist>

@@ -1,3 +1,4 @@
+// Open subreddit in a new tab if newTab == true
 function goToSubreddit(newTab) {
   var sub = document.getElementById("subreddit").value;
   const subredditStem = "http://reddit.com/r/";
