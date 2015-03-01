@@ -5,6 +5,8 @@ Simple Safari extension to open subreddits by name. Either click the button corr
 
 Hopefully will get ported to Chrome and Firefox in the near future
 
+![Screenshot]
+(http://i.imgur.com/caESLEe.png)
 
 Disclaimer
 ==========
