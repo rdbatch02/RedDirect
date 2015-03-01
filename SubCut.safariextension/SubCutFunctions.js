@@ -1,7 +1,7 @@
 // Open subreddit in a new tab if newTab == true
 function goToSubreddit(newTab) {
   var sub = document.getElementById("subreddit").value;
-  const subredditStem = "http://reddit.com/r/";
+  var subredditStem = "http://reddit.com/r/";
   if (!newTab) {
     safari.application.activeBrowserWindow.activeTab.url = subredditStem + sub;
   }
@@ -11,3 +11,9 @@ function goToSubreddit(newTab) {
   }
   safari.self.hide();
 }
+
+document.addEventListener('keydown', function (e) {
+  if (e.keyCode === 13) {
+    goToSubreddit(safari.extension.settings.enterNewTab);
+  }
+});
