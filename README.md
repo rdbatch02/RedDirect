@@ -1,7 +1,7 @@
 RedDirect
 =========
 
-Simple Safari extension to open subreddits by name
+Simple Safari extension to open subreddits by name. Either click the button corresponding to how you wish to open your desired subreddit, or hit the enter button. By default, enter will open in a new tab, but this functionality can be changed in the extension settings (within Safari settings).
 
 Hopefully will get ported to Chrome and Firefox in the near future
 
