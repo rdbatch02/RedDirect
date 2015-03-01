@@ -26,7 +26,7 @@
 				<key>Height</key>
 				<real>100</real>
 				<key>Identifier</key>
-				<string>RedDirectWindow</string>
+				<string>SubCutWindow</string>
 				<key>Width</key>
 				<real>280</real>
 			</dict>
@@ -39,11 +39,11 @@
 				<key>Image</key>
 				<string>reddithead4.png</string>
 				<key>Label</key>
-				<string>Open RedDirect</string>
+				<string>Open SubCut</string>
 				<key>Popover</key>
-				<string>RedDirectWindow</string>
+				<string>SubCutWindow</string>
 				<key>Tool Tip</key>
-				<string>Open RedDirect</string>
+				<string>Open SubCut</string>
 			</dict>
 		</array>
 	</dict>
