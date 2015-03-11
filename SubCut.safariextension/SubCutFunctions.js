@@ -1,7 +1,13 @@
 // Open subreddit in a new tab if newTab == true
 function goToSubreddit(newTab) {
   var sub = document.getElementById("subreddit").value;
-  var subredditStem = "http://reddit.com/r/";
+  var subredditStem;
+  if (safari.extension.settings.useHttps) {
+    subredditStem = "https://reddit.com/r/";
+  }
+  else {
+    subredditStem = "http://reddit.com/r/";
+  }
   if (!newTab) {
     safari.application.activeBrowserWindow.activeTab.url = subredditStem + sub;
   }
